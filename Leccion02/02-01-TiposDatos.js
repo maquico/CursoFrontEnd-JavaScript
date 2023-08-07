@@ -1,34 +1,48 @@
-var nombre = 'Juan';
-var apellido = 'Perez';
+// Declarar variables sin var, let o const es una mala practica
+// Declarar variables con var es una mala practica
+// Las variables son case sensitive
+let nombreCompleto = 'Carlos Lara';
+console.log( nombreCompleto );
+let nombrecompleto = 'Juan Perez';
+console.log( nombrecompleto );
 
-var nombreCompleto = nombre + ' ' + apellido;
-console.log(nombreCompleto);
+// Se pueden definir variables empezando con _, $, letras minusculas o mayusculas
+// No se pueden definir variables empezando con numeros
+// No se pueden definir variables con palabras reservadas
+let _variable;
+let $variable;
+let v1ariable;
+let Variable;
 
-var nombreCompleto2 = 'Carlos' + ' ' + 'Lara';
-console.log(nombreCompleto2);
-
-var x = nombre + 219;
-console.log(x);
-
-x = nombre + (2+4);
-console.log(x);
-
-x = 2 + 4 + nombre;
-console.log(x);
-
-
-
-
-
-
+//Declarar multiples variables en una sola linea
+let x, y;
+x = 10, y = 20;
+let z = x + y;
+console.log( z );
 
 
+// CONCATENACION DE CADENAS
+// var nombre = 'Juan';
+// var apellido = 'Perez';
 
+// var nombreCompleto = nombre + ' ' + apellido;
+// console.log(nombreCompleto);
+
+// var nombreCompleto2 = 'Carlos' + ' ' + 'Lara';
+// console.log(nombreCompleto2);
+
+// var x = nombre + 219;
+// console.log(x);
+
+// x = nombre + (2+4);
+// console.log(x);
+
+// x = 2 + 4 + nombre;
+// console.log(x);
 
 
 // /*
-// Ejemplos de tipos
-// de datos en javascript
+// EJEMPLOS DE TIPOS DE DATOS EN JAVASCRIPT
 // */
 
 // //Tipo de dato string
