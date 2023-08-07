@@ -1,3 +1,33 @@
+//OPERADOR TERNARIO
+let resultado = (3 > 2) ? "Verdadero" : "Falso";
+console.log(resultado);
+
+let num = 9;
+resultado = (num % 2 == 0) ? "Numero par" : "Numero impar";
+
+//OPERADOR OR
+
+let vacaciones = false;
+let diaDescanso = false;
+
+if(vacaciones || diaDescanso){
+    console.log("Puede asistir al juego");
+}else{
+    console.log("No puede asistir al juego");
+}
+
+//OPERADOR AND
+
+let a = 5;
+let valMin = 0, valMax = 10;
+
+if(a >= valMin && a <= valMax){
+    console.log("Dentro de rango");
+}else{
+    console.log("Fuera de rango");
+}
+
+
 //EJERCICIO NUMERO PAR
 
 let numero = 10;
