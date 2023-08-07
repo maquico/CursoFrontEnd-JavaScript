@@ -1,23 +1,39 @@
-//OPERADORES DE ASIGNACION
-let a = 1;
+//OPERADORES DE COMPARACION
 
-a += 3; //a = a + 3
-console.log(a);
+let a = 3, b = 2, c = "3";
 
-a-= 2; //a = a - 2
-console.log(a);
+let z = a == c; //en este caso se revisa sin importar el tipo de dato (si tienen tipos diferentes hace la conversion)
+console.log(z);
 
-a *= 2; //a = a * 2
-console.log(a);
+z = a === c; //en este caso se revisa tanto que los valores sean iguales como que el tipo de dato sea el mismo
+console.log(z);
 
-a /= 2; //a = a / 2
-console.log(a);
+z = a != c; //sin importar el tipo
+console.log(z);
 
-a %= 2; //a = a % 2
-console.log(a);
+z = a !== c; //revisa el tipo tambien
+console.log(z);
 
-a**= 2; //a = a ** 2
-console.log(a);
+// //OPERADORES DE ASIGNACION
+// let a = 1;
+
+// a += 3; //a = a + 3
+// console.log(a);
+
+// a-= 2; //a = a - 2
+// console.log(a);
+
+// a *= 2; //a = a * 2
+// console.log(a);
+
+// a /= 2; //a = a / 2
+// console.log(a);
+
+// a %= 2; //a = a % 2
+// console.log(a);
+
+// a**= 2; //a = a ** 2
+// console.log(a);
 
 // //ORDEN DE OPERACIONES
 
