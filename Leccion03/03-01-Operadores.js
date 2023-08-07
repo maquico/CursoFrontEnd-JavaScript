@@ -1,48 +1,67 @@
-//OPERADORES ARITMETICOS
+//ORDEN DE OPERACIONES
 
-//SUMA
-let a = 3, b = 2;
-let z = a + b;
-console.log("Resultado de la suma: " + z);
+let a = 3, b = 2, c = 1,  d = 4;
 
-//RESTA
-z = a - b;
-console.log("Resultado de la resta: " + z);
+let z = a * b + c;
+console.log(z);
 
-//MULTIPLICACION
-z = a * b;
-console.log("Resultado de la multiplicacion: " + z);
+z = c + a * b;
+console.log(z);
 
-//DIVISION
-z = a / b;
-console.log("Resultado de la division: " + z);
+z = a*b +  c/d;
+console.log(z);
 
-//RESIDUO
-z = a % b;
-console.log("Resultado del residuo: " + z);
+z = c + a * b / d;
+console.log(z);
 
-//EXPONENTE
-z = a ** b;
-console.log("Resultado del exponente: " + z);
+z = (c + a) * b / c;
+console.log(z);
 
-//OPERADORES DE INCREMENTO Y DECREMENTO
+// //OPERADORES ARITMETICOS
 
-    //INCREMENTO
-        //PRE-INCREMENTO (incrementa el valor directamente)
-        z = ++a;
-        console.log( a );
-        console.log( z);
-        //POST-INCREMENTO (incrementa el valor la proxima vez que se use la variable)
-        z = b++;
-        console.log(b);
-        console.log(z);
+// //SUMA
+// let a = 3, b = 2;
+// let z = a + b;
+// console.log("Resultado de la suma: " + z);
 
-    //DECREMENTO
-        //PRE-DECREMENTO (decrementa el valor directamente)
-        z = --a;
-        console.log( a );
-        console.log( z);
-        //POST-DECREMENTO (decrementa el valor la proxima vez que se use la variable)
-        z = b--;
-        console.log(b);
-        console.log(z);
+// //RESTA
+// z = a - b;
+// console.log("Resultado de la resta: " + z);
+
+// //MULTIPLICACION
+// z = a * b;
+// console.log("Resultado de la multiplicacion: " + z);
+
+// //DIVISION
+// z = a / b;
+// console.log("Resultado de la division: " + z);
+
+// //RESIDUO
+// z = a % b;
+// console.log("Resultado del residuo: " + z);
+
+// //EXPONENTE
+// z = a ** b;
+// console.log("Resultado del exponente: " + z);
+
+// //OPERADORES DE INCREMENTO Y DECREMENTO
+
+//     //INCREMENTO
+//         //PRE-INCREMENTO (incrementa el valor directamente)
+//         z = ++a;
+//         console.log( a );
+//         console.log( z);
+//         //POST-INCREMENTO (incrementa el valor la proxima vez que se use la variable)
+//         z = b++;
+//         console.log(b);
+//         console.log(z);
+
+//     //DECREMENTO
+//         //PRE-DECREMENTO (decrementa el valor directamente)
+//         z = --a;
+//         console.log( a );
+//         console.log( z);
+//         //POST-DECREMENTO (decrementa el valor la proxima vez que se use la variable)
+//         z = b--;
+//         console.log(b);
+//         console.log(z);
