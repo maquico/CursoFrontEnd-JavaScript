@@ -1,21 +1,42 @@
-//ORDEN DE OPERACIONES
+//OPERADORES DE ASIGNACION
+let a = 1;
 
-let a = 3, b = 2, c = 1,  d = 4;
+a += 3; //a = a + 3
+console.log(a);
 
-let z = a * b + c;
-console.log(z);
+a-= 2; //a = a - 2
+console.log(a);
 
-z = c + a * b;
-console.log(z);
+a *= 2; //a = a * 2
+console.log(a);
 
-z = a*b +  c/d;
-console.log(z);
+a /= 2; //a = a / 2
+console.log(a);
 
-z = c + a * b / d;
-console.log(z);
+a %= 2; //a = a % 2
+console.log(a);
 
-z = (c + a) * b / c;
-console.log(z);
+a**= 2; //a = a ** 2
+console.log(a);
+
+// //ORDEN DE OPERACIONES
+
+// let a = 3, b = 2, c = 1,  d = 4;
+
+// let z = a * b + c;
+// console.log(z);
+
+// z = c + a * b;
+// console.log(z);
+
+// z = a*b +  c/d;
+// console.log(z);
+
+// z = c + a * b / d;
+// console.log(z);
+
+// z = (c + a) * b / c;
+// console.log(z);
 
 // //OPERADORES ARITMETICOS
 
