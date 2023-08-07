@@ -1,17 +1,36 @@
-//OPERADORES RELACIONALES
-let a = 3, b = 3, c = "3";
+//EJERCICIO NUMERO PAR
 
-let z = a < b;
-console.log(z);
+let numero = 10;
+if(numero % 2 == 0){
+    console.log("El numero es par");
+}else{
+    console.log("El numero es impar");
+}
 
-z = a <= b;
-console.log(z);
+//EJERCICIO MAYOR DE EDAD
 
-z = a > b;
-console.log(z);
+let edad = 20, adulto = 18;
 
-z = a >= b;
-console.log(z);
+if(edad >= adulto){
+    console.log("Es mayor de edad");
+}else{
+    console.log("Es menor de edad");
+}
+
+// //OPERADORES RELACIONALES
+// let a = 3, b = 3, c = "3";
+
+// let z = a < b;
+// console.log(z);
+
+// z = a <= b;
+// console.log(z);
+
+// z = a > b;
+// console.log(z);
+
+// z = a >= b;
+// console.log(z);
 
 ////OPERADORES DE COMPARACION
 
