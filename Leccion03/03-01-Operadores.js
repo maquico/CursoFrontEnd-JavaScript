@@ -1,18 +1,33 @@
-//OPERADORES DE COMPARACION
+//OPERADORES RELACIONALES
+let a = 3, b = 3, c = "3";
 
-let a = 3, b = 2, c = "3";
-
-let z = a == c; //en este caso se revisa sin importar el tipo de dato (si tienen tipos diferentes hace la conversion)
+let z = a < b;
 console.log(z);
 
-z = a === c; //en este caso se revisa tanto que los valores sean iguales como que el tipo de dato sea el mismo
+z = a <= b;
 console.log(z);
 
-z = a != c; //sin importar el tipo
+z = a > b;
 console.log(z);
 
-z = a !== c; //revisa el tipo tambien
+z = a >= b;
 console.log(z);
+
+////OPERADORES DE COMPARACION
+
+// let a = 3, b = 2, c = "3";
+
+// let z = a == c; //en este caso se revisa sin importar el tipo de dato (si tienen tipos diferentes hace la conversion)
+// console.log(z);
+
+// z = a === c; //en este caso se revisa tanto que los valores sean iguales como que el tipo de dato sea el mismo
+// console.log(z);
+
+// z = a != c; //sin importar el tipo
+// console.log(z);
+
+// z = a !== c; //revisa el tipo tambien
+// console.log(z);
 
 // //OPERADORES DE ASIGNACION
 // let a = 1;
