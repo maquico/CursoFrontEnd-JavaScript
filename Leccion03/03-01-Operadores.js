@@ -4,6 +4,7 @@ console.log(resultado);
 
 let num = 9;
 resultado = (num % 2 == 0) ? "Numero par" : "Numero impar";
+console.log(resultado);
 
 //OPERADOR OR
 
