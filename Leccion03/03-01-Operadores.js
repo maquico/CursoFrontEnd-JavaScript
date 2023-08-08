@@ -1,3 +1,34 @@
+//EJEMPLOS PRECEDENCIA DE OPERADORES
+let x = 5;
+let y = 10;
+let z = ++x + y--;
+
+console.log(x);
+console.log(y);
+console.log(z);
+
+let _resultado = 4 + 5 * 6 / 3; //4 + ((5*6)/3)
+console.log(_resultado);
+
+_resultado = (4 + 5) * 6 / 3; //((4+5)*6)/3
+console.log(_resultado);
+
+
+//CONVERTIR STRING A NUMBER y VALIDAR QUE CADENA SEA NUMERO
+let miNumero = "18x";
+console.log(typeof miNumero);
+let _edad = Number(miNumero);
+console.log(typeof _edad);
+
+if(isNaN(_edad)){
+    console.log("No es un numero");
+}
+else{
+    let _resultado = (_edad >=18) ? "Puede votar" : "Muy joven para votar";
+    console.log(_resultado);
+}
+
+
 //OPERADOR TERNARIO
 let resultado = (3 > 2) ? "Verdadero" : "Falso";
 console.log(resultado);
